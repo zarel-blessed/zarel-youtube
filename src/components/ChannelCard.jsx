@@ -12,7 +12,7 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      width: { xs: "356px", md: "320px" },
+      width: { xs: "100%", sm: "356px", md: "300px" },
       height: "326px",
       margin: "auto",
       marginTop,
@@ -35,24 +35,24 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
           alt={channelDetail?.snippet?.title}
           sx={{
             borderRadius: "50%",
-            height: "180px",
-            width: "180px",
+            height: "150px",
+            width: "150px",
             mb: 2,
             border: "1px solid #e3e3e3",
           }}
         />
-        <Typography variant="h6">
+        <Typography variant="h6" fontWeight="400">
           {channelDetail?.snippet?.title}
           <CheckCircle
             sx={{
               fontSize: 12,
-              color: "gray",
+              color: "#4128af",
               ml: "5px",
             }}
           />
         </Typography>
         {channelDetail?.statistics?.subscriberCount && (
-          <Typography>
+          <Typography color="#505050">
             {parseInt(
               channelDetail?.statistics?.subscriberCount
             ).toLocaleString()}

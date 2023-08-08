@@ -41,7 +41,7 @@ const VideoDetail = () => {
               className="react-player"
               controls
             />
-            <Typography color="#fff" variant="h5" fontWeight="bold" p={2}>
+            <Typography color="#fff" variant="h6" fontWeight="500" p={2}>
               {videoDetail.snippet.title}
             </Typography>
             <Stack
@@ -49,8 +49,8 @@ const VideoDetail = () => {
               justifyContent="space-between"
               sx={{
                 color: "#fff",
+                marginBottom: "25px",
               }}
-              py={1}
               px={2}
             >
               <Link to={`/channel/${videoDetail.snippet.channelId}`}>
@@ -62,7 +62,7 @@ const VideoDetail = () => {
                   <CheckCircle
                     sx={{
                       fontSize: "12px",
-                      color: "gray",
+                      color: "#4128af",
                       ml: "5px",
                     }}
                   />

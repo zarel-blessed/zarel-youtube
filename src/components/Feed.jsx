@@ -22,7 +22,7 @@ const Feed = () => {
       <Box
         sx={{
           height: { sx: "auto", md: "92vh" },
-          borderRight: "1px solid #3d3d3d",
+          borderRight: "2px dashed #101010",
           px: { sx: 0, md: 2 },
         }}
       >
@@ -61,7 +61,7 @@ const Feed = () => {
           {selectedCategory}
           <span
             style={{
-              color: "#f31503",
+              color: "#4128af",
             }}
           >
             &nbsp;videos

@@ -26,18 +26,17 @@ const ChannelDetail = () => {
       <Box>
         <div
           style={{
-            background:
-              "radial-gradient(circle, rgba(5,5,5,1) 21%, rgba(11,6,69,1) 74%, rgba(19,13,91,1) 100%)",
+            background: "linear-gradient(-20deg, #1b4866 0%, #3e3366 100%)",
             zIndex: 10,
-            height: "300px",
+            height: "120px",
           }}
         />
         <ChannelCard channelDetail={channelDetail} marginTop="-140px" />
       </Box>
-      <Box display="flex" p={2}>
+      <Box display="flex" p={1}>
         <Box
           sx={{
-            mr: { sm: "100px" },
+            mr: { sm: "10px" },
           }}
         />
         <Videos videos={videos} />

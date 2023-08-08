@@ -24,17 +24,17 @@ const SearchFeed = () => {
       }}
     >
       <Typography
-        variant="h4"
+        fontSize="28px"
         fontWeight="bold"
         mb={2}
         sx={{
           color: "white",
         }}
       >
-        Search term for:
+        Search term for:&nbsp;
         <span
           style={{
-            color: "#f31503",
+            color: "#4128af",
           }}
         >
           {searchTerm}

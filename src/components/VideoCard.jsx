@@ -18,7 +18,7 @@ const VideoCard = ({
   return (
     <Card
       sx={{
-        width: { xs: "100%", sm: "358px", md: "320px" },
+        width: { xs: "100%", sm: "358px", md: "300px" },
         boxShadow: "none",
         borderRadius: 0,
       }}
@@ -28,19 +28,27 @@ const VideoCard = ({
           image={snippet?.thumbnails?.high?.url}
           alt={snippet?.title}
           sx={{
-            width: { xs: "100%", sm: "358px", md: "320px" },
+            width: { xs: "100%", sm: "358px", md: "300px" },
             height: 180,
           }}
         />
       </Link>
       <CardContent
         sx={{
-          backgroundColor: "#1e1e1e",
-          height: "106px",
+          backgroundColor: "#01000a",
+          height: "70px",
         }}
       >
         <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
-          <Typography variant="subtitle1" fontWeight="bold" color="#fff">
+          <Typography
+            variant="subtitle1"
+            fontWeight="400"
+            color="#fff"
+            mb={1}
+            sx={{
+              lineHeight: "1.2",
+            }}
+          >
             {snippet?.title.slice(0, 60) || demoVideoTitle.slice(0, 60)}
           </Typography>
         </Link>
@@ -56,7 +64,7 @@ const VideoCard = ({
             <CheckCircle
               sx={{
                 fontSize: 12,
-                color: "gray",
+                color: "#4128af",
                 ml: "5px",
               }}
             />

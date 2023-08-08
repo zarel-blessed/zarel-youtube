@@ -27,7 +27,7 @@ const SearchBar = () => {
         border: "1px solid #e3e3e3",
         pl: 2,
         boxShadow: "none",
-        mr: { sm: 5 },
+        mr: { sm: 5, md: 0 },
       }}
     >
       <input
@@ -40,7 +40,7 @@ const SearchBar = () => {
         type="submit"
         sx={{
           p: "10px",
-          color: "red",
+          color: "#45188d",
         }}
       >
         <Search />
