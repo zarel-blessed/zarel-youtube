@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/zarel-youtube/static/css/main.fa5599c8.css",
+    "main.js": "/zarel-youtube/static/js/main.416f92fb.js",
+    "static/media/logo.png": "/zarel-youtube/static/media/logo.3481bbf65ab844cbdfbb.png",
+    "index.html": "/zarel-youtube/index.html",
+    "main.fa5599c8.css.map": "/zarel-youtube/static/css/main.fa5599c8.css.map",
+    "main.416f92fb.js.map": "/zarel-youtube/static/js/main.416f92fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa5599c8.css",
+    "static/js/main.416f92fb.js"
+  ]
+}
